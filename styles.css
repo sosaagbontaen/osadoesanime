@@ -1,0 +1,161 @@
+
+body
+{
+    background-color: #1c0017;
+    background-image: url("resources/space.jpg");
+    background-attachment: fixed;
+
+}
+#mainMenu
+{
+
+    position:fixed;
+    top:2%;
+    text-align:center;
+    width:100%;
+    z-index: 999;
+    border-top: 1.5px solid red;
+    border-bottom: 1.5px solid red;
+
+}
+#mainMenu #pseudoElement
+{
+    position:absolute;
+    /*background-image: url('spaceRed.jpg');*/
+    background-color: darkred;
+    width:100%;
+    height:100%;
+
+    opacity: .6;
+}
+#mainMenu ul
+{
+    position: relative;
+    font-size:100%;
+    margin:auto;
+
+}
+#mainMenu li
+{
+    list-style-type: none;
+    display: inline-block;
+    font-weight:bold;
+    position: relative;
+    margin:5px 20px;
+    color:yellow;
+
+
+}
+#mainMenu li a{
+    font-size:90%;
+}
+li a:hover
+{
+    border:1px;
+    background-color:red;
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration:none;
+    color:white;
+}
+.nonSelectedPage
+{
+    color: white;
+    text-decoration:none;
+
+}
+
+.selectedPage
+{
+    border:1px;
+    background-color:white;
+    color: darkred;
+    border-style: solid;
+    border-color:red;
+    border-radius: 5px;
+    text-decoration:none;
+}
+#watermarkContainer
+{
+
+    position:fixed;
+    left:37.5%;
+    top:17.5%;
+    width:25%;
+
+}
+
+#watermark {
+    display: block;
+    width: 100%;
+    height:inherit;
+}
+.footer
+{
+    font-size: small;
+    color:white;
+    text-align:center;
+    margin:10px;
+}
+btn
+{
+    background-color: green; /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    width:100%;
+    top:0%;
+    left:0%;
+    position:relative;
+    z-index:99;
+}
+#me{
+    position:fixed;
+    left:37.5%;
+    top:25%;
+    width:inherit;
+    height:inherit;
+}
+h1{
+    color:white;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.pageContainer{
+    margin-top:50px;
+}
+.contentContainer{
+    margin-top:10px;
+    margin-left:10%;
+    margin-right:10%;
+    background-color:darkred;
+    border: 1.5px solid red;
+    font-size:25px;
+    color:white;
+    padding:5px;
+}
+.contentContainer .socials
+{
+    position:relative;
+    margin:10px;/*top,right,bottom,left*/
+    width:100px;
+}
+.contentContainer a
+{
+    text-decoration:none;
+}
+.contentContainer a:hover
+{
+    opacity:.6;
+}
+.contentContainer .thumbs
+{
+    position:relative;
+    margin-left:3%;
+    margin-right:3%;/*top,right,bottom,left*/
+    width:40%;
+}

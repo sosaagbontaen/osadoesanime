@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- My favicon -->
+    <link rel="icon" type="image/png" href="resources/AllWhite.png"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- HTML-only Head Opens TODO -->
+    <title>OsaDoesAnime | About</title>
+    <!-- HTML-only Head Closes -->
+  </head>
+  <body>
+    <!--HTML Body Opens TODO-->
+    <div id="mainMenu">
+        <div id="pseudoElement">
+            &nbsp <!-- Only way a div can take up space without having text inside-->
+        </div>
+        <ul>
+            <li><a href="index.html" class="nonSelectedPage" onmousedown="clickSound()">Home</a></li>
+            <li><a href="about.html" class="nonSelectedPage" onmousedown="clickSound()">About</a></li>
+            <li><a href="artwork.html" class="nonSelectedPage" onmousedown="clickSound()">Artwork</a></li>
+            <li><a href="videos.html" class="nonSelectedPage" onmousedown="clickSound()">Videos</a></li>
+            <li><a href="contact.html" class="selectedPage" onmousedown="clickSound()">Contact</a></li>
+        </ul>
+    </div>
+    <div class="pageContainer">
+      <span ><h1>Want to reach out to me? </h1> </span>
+      <div class="contentContainer">
+        <p>
+
+          Email: osadoesart@gmail.com
+          <br>
+          Youtube: OsaDoesAnime
+          <br>
+          Instagram: @osadoesart
+          <br>
+          Twitter: @osadoesart
+        </p>
+      </div>
+      <div class="contentContainer">
+          <img  class = "socials rounded-circle" src="resources/Young Emperor.jpg" alt="Me!"> <!--Rounded Circle is a bootstrap CSS feature-->
+          Don't forget to tune in to Shonen Saturdays every Saturday at 8PM EST!
+      </div>
+    </div>
+
+
+
+
+    <!--HTML Body Closes-->
+    <!-- Optional JavaScript Opens -->
+    <script>
+      var click = new Audio();
+      click.src = "resources/FGBS(5).wav";
+      function clickSound()
+      {
+        click.play();
+        click.currentTime=0;
+      }
+
+    </script>
+    <!-- Optional JavaScript Closes -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+  <footer class="footer">
+  <!--HTML Footer Opens-->
+      OsaDoesAnime
+  <!--HTML Footer Closes-->
+  </footer>
+</html>
